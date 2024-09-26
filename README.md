@@ -26,7 +26,7 @@ This backend application is built with Nest.js and provides API endpoints for re
 1. Clone the repository:
 
     ```bash
-    git clone 
+    git clone https://github.com/SoulOfDarknes/Country-Info-App.git
     ```
 
 2. Navigate to the backend directory:
@@ -56,7 +56,7 @@ This backend application is built with Nest.js and provides API endpoints for re
 2. Start the server:
 
     ```bash
-    npm run start
+    npm start
     ```
 
     The server will start on the port specified in the `.env` file (default is 3000).
