@@ -58,6 +58,6 @@ export class CountryService {
         } catch (error) {
             console.error(error);
             throw new NotFoundException('Country not found or API error');
-        }
-    }
+        };
+    };
 }
