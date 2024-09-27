@@ -44,9 +44,13 @@ export class CountryService {
                 );
 
                 borderCountries = bordersResponse.data.map(
-                    (country: { name: { common: string; }; }) => country.name.common,
+                    (country: { name: { common: string; }, cca2: string }) => ({
+                        name: country.name.common,
+                        code: country.cca2,
+                    }),
                 );
             }
+
 
             return {
                 countryCode,
